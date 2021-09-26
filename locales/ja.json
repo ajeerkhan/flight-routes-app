@@ -30,8 +30,8 @@
                 "ctaTitle": "Select"
             },
             "navCard": {
-                "todayFlightTitle" : "Today's Flight",
-                "tomorrowFlightTitle" : "Tomorrow's Flight",
+                "todayFlightTitle" : "Today's Flights",
+                "tomorrowFlightTitle" : "Tomorrow's Flights",
                 "viewResultsTitle": "View Results"
             }    
         },
@@ -45,9 +45,9 @@
                 "ctaTitle": "Выбирать"
             },
             "navCard": {
-                "todayFlightTitle" : "Today's Flight",
-                "tomorrowFlightTitle" : "Tomorrow's Flight",
-                "viewResultsTitle": "View Resutls"
+                "todayFlightTitle" : "Today's Flights",
+                "tomorrowFlightTitle" : "Tomorrow's Flights",
+                "viewResultsTitle": "View Results"
             }  
         },
         "_flight-routes":{
