@@ -6,6 +6,47 @@ exports[`Layout Layout component should render without throwing an error 1`] = `
   messages={
     Object {
       "content": Object {
+        "_": Object {
+          "card": Object {
+            "arrivalTitle": "Arrival",
+            "ctaTitle": "Select",
+            "departureTitle": "Departure",
+          },
+          "navCard": Object {
+            "todayFlightTitle": "Today's Flights",
+            "tomorrowFlightTitle": "Tomorrow's Flights",
+            "viewResultsTitle": "View Results",
+          },
+          "resultsTitle": "Search Results",
+          "section": "Flight Routes",
+          "title": "Flight Routes",
+        },
+        "_flight-routes": Object {
+          "card": Object {
+            "arrivalTitle": "Arrival",
+            "ctaTitle": "Select",
+            "departureTitle": "Departure",
+          },
+          "noResultsFound": "No Flight Routes are matching the search criteria. Please try later.",
+          "resultsTitle": "Flight Routes - Search Results",
+          "section": "Flight Routes",
+          "title": "Flight Routes",
+        },
+        "_home": Object {
+          "card": Object {
+            "arrivalTitle": "Пребытие",
+            "ctaTitle": "Выбирать",
+            "departureTitle": "Вылет из",
+          },
+          "navCard": Object {
+            "todayFlightTitle": "Today's Flights",
+            "tomorrowFlightTitle": "Tomorrow's Flights",
+            "viewResultsTitle": "View Results",
+          },
+          "resultsTitle": "Flight Routes",
+          "section": "Flight Routes",
+          "title": "Flight Routes",
+        },
         "common": Object {
           "nav": Object {
             "home": "Home",
@@ -15,16 +56,14 @@ exports[`Layout Layout component should render without throwing an error 1`] = `
           "navFooter": Object {},
           "title": "Fly Better",
         },
-        "pageFlightRoutes": Object {
-          "card": Object {
-            "arrivalTitle": "Arrival",
-            "ctaTitle": "Select",
-            "departureTitle": "Departure",
-          },
-          "resultsTitle": "Search Results",
-          "title": "Flight Routes",
+        "seo": Object {
+          "copyright": "© 2021 Airlines. All Rights Reserved.",
+          "description": "Flight routes shows possible flights scheduled",
+          "htmlClass": "ek",
+          "htmlDir": "rtl",
+          "keywords": "Flight routes",
+          "myLanguageType": "englishUTF8",
         },
-        "seo": Object {},
       },
     }
   }

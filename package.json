@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name" : "Ajeerkhan Meerankani",
-    "email" : "ajeerkhan@gmail.com",
-    "url" : "https://www.linkedin.com/in/ajeerkhan/",
+    "name": "Ajeerkhan Meerankani",
+    "email": "ajeerkhan@gmail.com",
+    "url": "https://www.linkedin.com/in/ajeerkhan/",
     "git": "https://github.com/ajeerkhan"
   },
   "scripts": {

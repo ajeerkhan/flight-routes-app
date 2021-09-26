@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FlightCards FlightCards component should render without throwing an error 1`] = `
+exports[`HomeCards HomeCards component should render without throwing an error 1`] = `
 <IntlProvider
   locale="en"
   messages={
@@ -68,6 +68,8 @@ exports[`FlightCards FlightCards component should render without throwing an err
     }
   }
 >
-  <FlightCards />
+  <HomeCardsContainer
+    pageName="/"
+  />
 </IntlProvider>
 `;
