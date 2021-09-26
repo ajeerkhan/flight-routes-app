@@ -1,0 +1,66 @@
+{
+    "content": {
+        "common": {
+            "title": "Fly Better",
+            "nav": {
+                "home" : "Дом",
+                "manageBooking": "Управление бронированием",
+                "myAccount": "Мой аккаунт"
+            },
+            "navFooter":{
+                
+            }
+        },
+        "seo": {
+            "htmlClass": "ek",
+            "htmlDir": "rtl",
+            "myLanguageType": "englishUTF8",
+            "copyright": "© 2021 Airlines. All Rights Reserved.",
+            "keywords": "Flight routes",
+            "description": "Flight routes shows possible flights scheduled"
+ 
+        },
+        "_":{
+            "section": "Маршруты полетов",
+            "title": "Маршруты полетов",
+            "resultsTitle": "результаты поиска",
+            "card": {
+                "departureTitle": "Вылет из",
+                "arrivalTitle": "Пребытие",
+                "ctaTitle": "Выбирать"
+            },
+            "navCard": {
+                "todayFlightTitle" : "Сегодняшний полет",
+                "tomorrowFlightTitle" : "Завтрашний полет",
+                "viewResultsTitle": "Посмотреть Результаты"
+            }  
+        },
+        "_home":{
+            "section": "Маршруты полетов",
+            "title": "Маршруты полетов",
+            "resultsTitle": "результаты поиска",
+            "card": {
+                "departureTitle": "Вылет из",
+                "arrivalTitle": "Пребытие",
+                "ctaTitle": "Выбирать"
+            },
+            "navCard": {
+                "todayFlightTitle" : "Сегодняшний полет",
+                "tomorrowFlightTitle" : "Завтрашний полет",
+                "viewResultsTitle": "Посмотреть Результаты"
+            }  
+        },
+        "_flight-routes":{
+            "section": "Маршруты полетов",
+            "title": "Маршруты полетов",
+            "resultsTitle": "результаты поиска",
+            "card": {
+                "departureTitle": "Вылет из",
+                "arrivalTitle": "Пребытие",
+                "ctaTitle": "Выбирать"
+            },
+            "noResultsFound": "Маршруты полета не соответствуют критериям поиска. Пожалуйста, попробуйте позднее."    
+        }
+
+    }
+}

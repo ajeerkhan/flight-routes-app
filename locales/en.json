@@ -1,0 +1,66 @@
+{
+    "content": {
+        "common": {
+            "title": "Fly Better",
+            "nav": {
+                "home" : "Home",
+                "manageBooking": "Manage Booking",
+                "myAccount": "My Account"
+            },
+            "navFooter":{
+                
+            }
+        },
+        "seo": {
+            "htmlClass": "ek",
+            "htmlDir": "rtl",
+            "myLanguageType": "englishUTF8",
+            "copyright": "© 2021 Airlines. All Rights Reserved.",
+            "keywords": "Flight routes",
+            "description": "Flight routes shows possible flights scheduled"
+ 
+        },
+        "_":{
+            "section": "Flight Routes",
+            "title": "Flight Routes",
+            "resultsTitle": "Search Results",
+            "card": {
+                "departureTitle": "Departure",
+                "arrivalTitle": "Arrival",
+                "ctaTitle": "Select"
+            },
+            "navCard": {
+                "todayFlightTitle" : "Today's Flight",
+                "tomorrowFlightTitle" : "Tomorrow's Flight",
+                "viewResultsTitle": "View Resutls"
+            }
+               
+        },
+        "_home":{
+            "section": "Flight Routes",
+            "title": "Flight Routes",
+            "resultsTitle": "Flight Routes",
+            "card": {
+                "departureTitle": "Вылет из",
+                "arrivalTitle": "Пребытие",
+                "ctaTitle": "Выбирать"
+            },
+            "navCard": {
+                "todayFlightTitle" : "Today's Flight",
+                "tomorrowFlightTitle" : "Tomorrow's Flight",
+                "viewResultsTitle": "View Results"
+            }  
+        },
+        "_flight-routes":{
+            "section": "Flight Routes",
+            "title": "Flight Routes",
+            "resultsTitle": "Flight Routes - Search Results",
+            "card": {
+                "departureTitle": "Departure",
+                "arrivalTitle": "Arrival",
+                "ctaTitle": "Select"
+            },
+            "noResultsFound": "No Flight Routes are matching the search criteria. Please try later."
+        }
+    }
+}

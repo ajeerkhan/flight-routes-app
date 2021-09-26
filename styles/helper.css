@@ -1,0 +1,8 @@
+/* stylelint-disable */
+@mixin color-border($borderSize: 1px, $color: black) {
+  border: $borderSize solid $color;
+}
+
+@mixin color-border-with-priority($borderSize: 1px, $color: black) {
+  border: $borderSize solid $color !important;
+}

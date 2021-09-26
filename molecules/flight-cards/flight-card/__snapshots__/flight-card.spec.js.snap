@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightCard FlightCard component should render without throwing an error 1`] = `
+<IntlProvider
+  locale="en"
+  messages={
+    Object {
+      "content": Object {
+        "common": Object {
+          "nav": Object {
+            "home": "Home",
+            "manageBooking": "Manage Booking",
+            "myAccount": "My Account",
+          },
+          "navFooter": Object {},
+          "title": "Fly Better",
+        },
+        "pageFlightRoutes": Object {
+          "card": Object {
+            "arrivalTitle": "Arrival",
+            "ctaTitle": "Select",
+            "departureTitle": "Departure",
+          },
+          "resultsTitle": "Search Results",
+          "title": "Flight Routes",
+        },
+        "seo": Object {},
+      },
+    }
+  }
+>
+  <FlightCard
+    flightCard={
+      Object {
+        "arrDate": "2021-09-23T00:00:00Z",
+        "arrTime": "0705",
+        "deptDate": "2021-09-23T00:00:00Z",
+        "deptTime": "0230",
+        "destination": "LHR",
+        "display": Object {
+          "arrDate": "2021-09-23",
+          "arrTime": "07:05",
+          "arrivalTerminal": "Terminal 4",
+          "departureTerminal": "Terminal 3",
+          "deptDate": "2021-09-23",
+          "deptTime": "02:30",
+          "destination": "London Heathrow (LHR)",
+          "origin": "Dubai (DXB)",
+        },
+        "legs": Object {
+          "arrSTN": "LHR",
+          "arrTime": "0705",
+          "blockTime": "07:35",
+          "codeshare": "",
+          "confg": "FJY",
+          "connseq": "1888482",
+          "deptSTN": "DXB",
+          "deptTime": "0230",
+          "flightAircraftType": "388",
+          "flightDate": "2021-09-23T00:00:00Z",
+          "flightNo": "7",
+          "flightSEQ": "1",
+          "flightType": "EK",
+          "legseqno": "1",
+          "localACFTType": "388Y",
+          "originDate": "2021-09-23T00:00:00Z",
+          "totalHours": "7.35",
+        },
+        "operator": "EK",
+        "origin": "DXB",
+        "stopCounts": 0,
+        "totalBlockTime": "7.35",
+      }
+    }
+    index={1}
+  />
+</IntlProvider>
+`;

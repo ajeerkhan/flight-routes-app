@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600;700&display=swap');
+@import url('helper.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+html,
+body {
+  font-size: 10px;
+}
+
+.card-selected {
+  /* stylelint-disable */
+  border: 1px solid #059611 !important;
+}
+
+.action_cta-selected {
+  cursor: no-drop;
+}
+
+button.selected {
+  pointer-events: none;
+  background: #e0e0e0 !important;
+  color: #c7c5c5 !important;
+}
+
+.card-selected::after {
+  position: absolute;
+  background: url("./tick.svg");
+  height: 50px;
+  width: 50px;
+  content: '';
+  background-repeat: no-repeat;
+  right: 12px;
+  top: 11px;
+  transform: scale(1.5);
+}
+
+.page_title {
+  background: #d3e2f5;
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 20px;
+}
+.page_title h1 {
+  color: #333;
+  font-size: 1.8rem;
+}
+
+div.error {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 4px #ccc;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 50px 20px;
+  position: relative;
+  width: 100%;
+  align-content: center;
+}
+
+div.error p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #8d0203;
+  text-align: left;
+  padding-bottom: 1rem;
+}

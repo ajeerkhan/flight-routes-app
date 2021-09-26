@@ -1,0 +1,13 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Flight Routes",
+    "name": "Flights to Dubai (DXB)",
+    "description": "Choose flights to Dubai for abundant cultural offerings, a vibrant music scene and delightful gourmet options.",
+    "url": "https://www.xyz.com/en/fligts-routes",
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "5.3254216",
+        "longitude": "-4.0204114"
+    },
+    "includesAttraction": []
+}

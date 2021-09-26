@@ -1,0 +1,71 @@
+{
+    "content": {
+        "common": {
+            "title": "Fly Better",
+            "nav": {
+                "home" : "الصفحة الرئيسية",
+                "manageBooking": "إدارة الحجز",
+                "myAccount": "حسابي"
+            },
+            "navFooter":{
+                
+            }
+        },
+        "seo": {
+            "htmlClass": "ek",
+            "htmlDir": "rtl",
+            "myLanguageType": "englishUTF8",
+            "copyright": "© 2021 Airlines. All Rights Reserved.",
+            "keywords": "Flight routes",
+            "description": "Flight routes shows possible flights scheduled"
+ 
+        },
+        "_":{
+            "section": "طرق الطيران",
+            "title": "طرق الطيران",
+            "resultsTitle": "نتائج البحث",
+            "card": {
+                "departureTitle": "مقال",
+                "arrivalTitle": "وصول",
+                "ctaTitle": "يختار"
+            },
+            "navCard": {
+                "todayFlightTitle" : "رحلة اليوم",
+                "tomorrowFlightTitle" : "رحلة الغد",
+                "viewResultsTitle": "عرض النتائج"
+            }
+               
+        },
+        "_home":{
+            "section": "طرق الطيران",
+            "title": "طرق الطيران",
+            "resultsTitle": "طرق الطيران",
+            "card": {
+                "departureTitle": "مقال",
+                "arrivalTitle": "وصول",
+                "ctaTitle": "يختار"
+            },
+            "navCard": {
+                "todayFlightTitle" : "رحلة اليوم",
+                "tomorrowFlightTitle" : "رحلة الغد",
+                "viewResultsTitle": "عرض النتائج"
+            }  
+        },
+        "_flight-routes":{
+            "section": "طرق الطيران",
+            "title": "طرق الطيران",
+            "resultsTitle": "مسارات الرحلات - نتائج البحث",
+            "card": {
+                "departureTitle": "مقال",
+                "arrivalTitle": "وصول",
+                "ctaTitle": "يختار"
+            },
+            "navCard": {
+                "todayFlightTitle" : "رحلة اليوم",
+                "tomorrowFlightTitle" : "رحلة الغد",
+                "viewResultsTitle": "عرض النتائج"
+            },
+            "noResultsFound": "لا توجد مسارات طيران مطابقة لمعايير البحث. من فضلك حاول لاحقا."
+        }
+    }
+}

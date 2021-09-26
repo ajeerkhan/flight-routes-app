@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    "name": "Flights to Abidjan (ABJ)",
+    "description": "Choose flights to Abidjan for abundant cultural offerings, a vibrant music scene and delightful gourmet options.",
+    "url": "https://www.emirates.com/ae/english/destinations/flights-to-abidjan.aspx",
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "5.3254216",
+        "longitude": "-4.0204114"
+    },
+    "includesAttraction": []
+}
+</script>

@@ -1,0 +1,177 @@
+/* no-descending-specificity-disable */
+.flight_card {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 4px #ccc;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 25px 20px 20px;
+  position: relative;
+  width: 100%;
+
+  .flight_card_info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    & > div {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .flight_airport {
+      span {
+        color: #333;
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin: 10px 0 0;
+
+        &:last-child {
+          text-align: right;
+        }
+      }
+    }
+
+    .flight_terminal {
+      span {
+        color: #333;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+
+        &:last-child {
+          text-align: right;
+        }
+      }
+    }
+
+    .flight_timing_label {
+      span {
+        color: #696969;
+        font-size: 1.6rem;
+      }
+    }
+
+    .flight_date,
+    .flight_time {
+      span {
+        color: #333;
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin: 5px 0 0;
+
+        &:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  .flight_card_action {
+    align-items: center;
+    border-left: 1px dashed #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    width: 230px;
+
+    .flight_tail_img {
+      img {
+        height: 34px;
+      }
+    }
+
+    .action_airport_code {
+      span {
+        color: #333;
+        font-size: 2.6rem;
+        font-weight: 700;
+      }
+
+      &:nth-child(2) {
+        margin: 0 10px;
+      }
+    }
+
+    .action_cta {
+      margin: 20px 0 0;
+
+      button {
+        background: #3f51b5;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.8rem;
+        font-weight: 600;
+        max-width: 220px;
+        min-width: 180px;
+        padding: 14px 20px;
+        transition: linear 0.3s;
+
+        &:hover {
+          background: #0d1b69;
+        }
+
+        &:focus {
+          box-shadow: 0 0 0 3px #a5c5ef;
+        }
+      }
+    }
+  }
+
+  &.selected {
+    border: 1px solid #059611;
+
+    .flight_card_action {
+      .action_cta {
+        cursor: no-drop;
+
+        button {
+          background: #e0e0e0;
+          color: #c7c5c5;
+          pointer-events: none;
+        }
+      }
+    }
+
+    &::after {
+      background: url('./tick.svg');
+      background-repeat: no-repeat;
+      content: '';
+      height: 50px;
+      position: absolute;
+      right: 12px;
+      top: 11px;
+      transform: scale(1.5);
+      width: 50px;
+    }
+  }
+}
+
+$breakpoint-responsive: 991px;
+
+@media (max-width: $breakpoint-responsive) {
+  .flight_card {
+    flex-direction: column;
+
+    .flight_card_action {
+      border-left: none;
+      border-top: 1px dashed #ccc;
+      margin: 20px auto 0;
+      padding: 20px 0 0;
+      width: 100%;
+    }
+
+    .flight_card_info {
+      .flight_airport {
+        span {
+          font-size: 1.8rem;
+          width: 50%;
+        }
+      }
+    }
+  }
+}
